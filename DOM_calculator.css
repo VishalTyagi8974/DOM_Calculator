@@ -1,0 +1,88 @@
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3a4452;
+    height: 500px;
+    width: 100%;
+    /* border-top: 5px solid rgb(227, 157, 5);
+    border-radius: 12px 12px 0 0; */
+}
+
+#buttons button {
+    box-shadow: -0.7px -0.7px 0.7px white;
+    font-size: 1.2rem;
+    color: #d9d9d9;
+    margin: 0.4em;
+    background-color: #3a445200;
+    width: 20%;
+    border-radius: 10px;
+
+}
+
+body {
+    background-color: #355070;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#screen {
+    box-sizing: border-box;
+    padding: 3rem 1rem 2rem 1rem;
+    width: 100%;
+    height: 30%;
+    text-align: right;
+    font-size: 3.5rem;
+    background-color: #3a4452;
+    color: #d9d9d9;
+
+}
+
+#calc {
+    overflow: hidden;
+    border-radius: 10px;
+    box-sizing: border-box;
+    max-width: 390px;
+    align-self: center;
+    border: 10px solid #003049;
+}
+
+h1 {
+    width: 100%;
+    color: #d9d9d9;
+    text-align: center;
+    margin: 1.5em 0;
+    margin-bottom: 2em;
+
+}
+
+
+#buttons .sym {
+    color: aqua;
+}
+
+button {
+    color: #d9d9d9;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.763);
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+button:active {
+    border-color: #d9d9d9;
+}
+
+
+
+
+#screen span {
+    display: block;
+}
+
+#screen span:nth-of-type(1) {
+    display: block;
+    font-size: 0.5em;
+    color: rgba(255, 255, 255, 0.516);
+}
